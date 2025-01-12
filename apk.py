@@ -115,7 +115,7 @@ def main():
     st.markdown('<div class="title">✨ Age and Gender Prediction ✨</div>', unsafe_allow_html=True)
 
     # File uploader with styling, allowing multiple files
-    uploaded_files = st.file_uploader("Upload face images for predictions:", type=["jpg", "jpeg", "png"],
+    uploaded_files = st.file_uploader("Upload images, each featuring a single person, for predictions:", type=["jpg", "jpeg", "png"],
                                       accept_multiple_files=True)
 
     if uploaded_files:
