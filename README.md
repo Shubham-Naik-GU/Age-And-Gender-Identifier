@@ -56,10 +56,13 @@ To train the models, follow these steps:
    ```bash
    streamlit run apk.py
 3. A browser window will open with the Streamlit interface.
-   ![Streamlit Interface](ab.jpg)
+   ![Streamlit Interface](Streamlit Interface.jpg)
 4. Click the Browse Files button to upload human images.
-
+   ![upload](upload-img.jpg)
 5. Wait for the predictions to appear from both models. You can upload multiple images at once.
+   ![output1](Screenshot1.jpg)
+   ![output2](Screenshot1.jpg)
+   ![output3](Screenshot1.jpg)
 
 ## Technologies Used
 - **Python**
