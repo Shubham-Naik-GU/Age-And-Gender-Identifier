@@ -55,5 +55,19 @@ To train the models, follow these steps:
 2. Run the following command in the terminal:
    ```bash
    streamlit run apk.py
+3. A browser window will open with the Streamlit interface.
+4. Click the Browse Files button to upload human images.
+5. Wait for the predictions to appear from both models. You can upload multiple images at once.
+
+## Technologies Used
+- **Python**
+- **TensorFlow** (for building the machine learning models)
+- **Keras** (for building neural networks)
+- **Convolutional Neural Networks (CNN)** (for image processing)
+- **Streamlit** (for building the user interface)
+- **Matplotlib** (for data visualization)
+- **Seaborn** (for data visualization)
+- **Jupyter Notebook / Google Colab** (for model training)
+- **PyCharm** (for developing the Streamlit UI)
 
 
