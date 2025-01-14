@@ -1,13 +1,11 @@
 # 🎯 Age and Gender Identifier
 
 ## 📜 Project Description
-The **Age and Gender Identifier** project is a machine learning application that predicts a person's age and gender from images. The model is developed using **Convolutional Neural Networks (CNN)**, **TensorFlow**, and **Keras**, and was trained in **Jupyter Notebook** and **Google Colab**. The trained model is integrated into a user-friendly interface built using **Streamlit** in **PyCharm**, allowing users to upload images in real-time and get predictions.
+The **Age and Gender Identifier** project is a machine learning application that predicts a person's age and gender from images. The model is developed using **Convolutional Neural Networks (CNN)**, **TensorFlow**, and **Keras**, and was trained in **Jupyter Notebook** and **Google Colab**. The trained model is integrated into a user-friendly interface built using **Streamlit** in **PyCharm**, allowing users to upload images in real-time and get predictions. Data visualization tools like **Matplotlib** and **Seaborn** are utilized to assess the model's performance. Users can upload multiple images at once for batch processing, and the system will provide predictions from both models.
 
 The system uses two models:
 1. The first model, trained on the initial dataset, predicts age and gender from the images.
 2. The second model, trained on corrected data, is used when the first model provides inaccurate predictions.
-
-Data visualization tools like **Matplotlib** and **Seaborn** are utilized to assess the model's performance. Users can upload multiple images at once for batch processing, and the system will provide predictions from both models.
 ---
 ### ✨ Features:
 - ** 📷 Real-Time Image Uploads:** Upload multiple images and get predictions of age and gender.
